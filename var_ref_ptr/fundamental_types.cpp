@@ -1,3 +1,7 @@
+#include "../std_lib.h"
+
+// Basic types
+
 // Characters
 char a = 'a';			// Minimum 8 bits, always smallest 
 

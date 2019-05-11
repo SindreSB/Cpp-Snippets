@@ -2,6 +2,7 @@
 .vscode/
 
 # Ignore output files
-.o
-.out
+*.o
+*.out
+test
 
