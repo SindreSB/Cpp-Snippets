@@ -1,4 +1,4 @@
-#include "../std_lib.h"
+#include "std_lib_facilities.h
 
 int main() {
     int value = 0;
@@ -17,7 +17,7 @@ int main() {
         // Do something
     }
 
-    // We can have else if without else as well
+    // We can have if and else if without else as well
     if (0 == 1) {
         // Probably this will never be true
     }
@@ -26,6 +26,5 @@ int main() {
     }
     // But we don't need an else here
 
-    
     return 0;
 }

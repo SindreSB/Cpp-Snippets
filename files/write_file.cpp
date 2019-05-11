@@ -1,4 +1,4 @@
-#include "../std_lib.h"
+#include "std_lib_facilities.h"
 
 int main() {
     ofstream file {"outfile.txt"}; // File does not need to exist

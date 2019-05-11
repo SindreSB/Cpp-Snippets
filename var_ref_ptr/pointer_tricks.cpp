@@ -1,4 +1,4 @@
-#include "std_lib.h"
+#include "std_lib_facilities.h"
 
 int main() {
     int a;
@@ -10,7 +10,8 @@ int main() {
     cout << a << endl;
     cout << a_ptr << endl;
 
-    //*a_ptr = 0;
+    // Uncommenting the following line will cause the program to crash
+    // *a_ptr = 0;
 
     return 0;
 }
