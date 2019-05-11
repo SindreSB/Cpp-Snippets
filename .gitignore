@@ -1,0 +1,7 @@
+# Ignore editor config
+.vscode/
+
+# Ignore output files
+.o
+.out
+
