@@ -12,7 +12,7 @@ På linux kan eksemplene kompileres med g++ som følger med de fleste linux dist
 Ved å definere følgende kommando/funksjon:
 
 ```bash
-g++c() {g++ "$1" -I.. -I.; ./a.out; rm -f ./a.out; }
+g++c() { g++ "$1" -I.. -I.; ./a.out; rm -f ./a.out; }
 ```
 
 Kan man kompilere, kjøre, og deretter slette den kjørbare filen ved å skrive 
