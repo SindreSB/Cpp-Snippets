@@ -13,6 +13,9 @@ struct IntTest {
 
 int main() {
     
+    IntTest<string, 3> test("Hei");
+
+    cout << test.getNumber() << endl;
 
     return 0;
 }
